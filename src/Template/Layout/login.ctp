@@ -60,7 +60,10 @@ $this->prepend('css', $this->Html->css([
         <div class="login-logo">
             <?= $this->Html->link(Configure::read('AdminLTE.texts.logo'), Configure::read('AdminLTE.links.dashboard'), ['escape' => false]) ?>
         </div>
-        <?= $this->fetch('content'); ?>
+        <div class="login-box-body">
+            <?= $this->Flash->render(); ?>
+            <?= $this->fetch('content'); ?>
+        </div>
     </div>
     <?= $this->fetch('script'); ?>
 </body>
