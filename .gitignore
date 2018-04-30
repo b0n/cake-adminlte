@@ -1,7 +1,5 @@
 .gitkeep
-composer.lock
-node_modules
-webroot/vendor
-webroot/css
-vendor/
-node_modules/
+/composer.lock
+/node_modules
+/webroot/vendor
+/vendor/
