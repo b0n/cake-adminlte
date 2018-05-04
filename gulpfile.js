@@ -7,7 +7,9 @@ var del = require('del'),
 ;
 
 gulp.task('bower', function() {
-  return bower();
+  return bower({
+    "interactive": true
+  });
 });
 
 gulp.task('clean', ['bower'], function() {
