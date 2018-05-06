@@ -26,18 +26,18 @@ if (Configure::read('App.author')) {
 
 // Prepend scripts required by the navbar
 $this->prepend('script', $this->Html->script([
-    '/Cirici/AdminLTE/vendor/jquery/dist/jquery.min.js',
-    '/Cirici/AdminLTE/vendor/bootstrap/dist/js/bootstrap.min.js',
-    '/Cirici/AdminLTE/vendor/admin-lte/dist/js/adminlte.min.js',
+    '/Cirici/AdminLTE/js/jquery.min.js',
+    '/Cirici/AdminLTE/js/bootstrap.min.js',
+    '/Cirici/AdminLTE/js/adminlte.min.js',
 ]));
 
 // Styles
 $this->prepend('css', $this->Html->css([
-    '/Cirici/AdminLTE/vendor/bootstrap/dist/css/bootstrap.min.css',
-    '/Cirici/AdminLTE/vendor/font-awesome/css/font-awesome.min.css',
-    '/Cirici/AdminLTE/vendor/ionicons/css/ionicons.css',
-    '/Cirici/AdminLTE/vendor/admin-lte/dist/css/AdminLTE.css',
-    '/Cirici/AdminLTE/vendor/admin-lte/dist/css/skins/skin-'. Configure::read('AdminLTE.skin') .'.min',
+    '/Cirici/AdminLTE/css/bootstrap.min.css',
+    '/Cirici/AdminLTE/css/font-awesome.min.css',
+    '/Cirici/AdminLTE/css/ionicons.css',
+    '/Cirici/AdminLTE/css/AdminLTE.css',
+    '/Cirici/AdminLTE/css/skins/skin-'. Configure::read('AdminLTE.skin') .'.min',
 ]));
 
 ?>
