@@ -181,7 +181,6 @@ $this->prepend('css', $this->Html->css([
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-        <?= $this->Flash->render(); ?>
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
@@ -203,6 +202,7 @@ $this->prepend('css', $this->Html->css([
 
         <!-- Main content -->
         <section class="content">
+            <?= $this->Flash->render(); ?>
             <?= $this->fetch('content'); ?>
         </section>
         <!-- /.content -->
