@@ -21,7 +21,7 @@ You can install this plugin into your CakePHP application using [composer][compo
 The recommended way to install composer packages is:
 
 ~~~bash
-composer require ciricihq/adminlte
+composer require funayaki/adminlte
 ~~~
 
 ### Installing dependencies
@@ -231,16 +231,16 @@ Created by Òscar Casajuana for Cirici New Media
 [KnpMenu]: https://github.com/KnpLabs/KnpMenu
 [FontAwesome]: http://fortawesome.github.io/Font-Awesome/icons/
 
-[build status]: https://travis-ci.org/ciricihq/cake-adminlte
-[coverage]: https://codecov.io/gh/ciricihq/cake-adminlte
-[license]: https://github.com/ciricihq/cake-adminlte/blob/master/LICENSE.md
-[releases]: https://github.com/ciricihq/cake-adminlte/releases
-[downloads]: https://packagist.org/packages/ciricihq/adminlte
-[climate]: https://codeclimate.com/github/ciricihq/cake-adminlte
+[build status]: https://travis-ci.org/funayaki/cake-adminlte
+[coverage]: https://codecov.io/gh/funayaki/cake-adminlte
+[license]: https://github.com/funayaki/cake-adminlte/blob/master/LICENSE.md
+[releases]: https://github.com/funayaki/cake-adminlte/releases
+[downloads]: https://packagist.org/packages/funayaki/adminlte
+[climate]: https://codeclimate.com/github/funayaki/cake-adminlte
 
-[build svg]: https://img.shields.io/travis/ciricihq/cake-adminlte/master.svg?style=flat-square
-[coverage svg]: https://img.shields.io/codecov/c/github/ciricihq/cake-adminlte/master.svg?style=flat-square
-[license svg]: https://img.shields.io/github/license/ciricihq/cake-adminlte.svg?style=flat-square
-[releases svg]: https://img.shields.io/github/release/ciricihq/cake-adminlte.svg?style=flat-square
-[downloads svg]: https://img.shields.io/packagist/dt/ciricihq/adminlte.svg?style=flat-square
-[climate svg]: https://img.shields.io/codeclimate/github/ciricihq/cake-adminlte.svg?style=flat-square
+[build svg]: https://img.shields.io/travis/funayaki/cake-adminlte/master.svg?style=flat-square
+[coverage svg]: https://img.shields.io/codecov/c/github/funayaki/cake-adminlte/master.svg?style=flat-square
+[license svg]: https://img.shields.io/github/license/funayaki/cake-adminlte.svg?style=flat-square
+[releases svg]: https://img.shields.io/github/release/funayaki/cake-adminlte.svg?style=flat-square
+[downloads svg]: https://img.shields.io/packagist/dt/funayaki/adminlte.svg?style=flat-square
+[climate svg]: https://img.shields.io/codeclimate/github/funayaki/cake-adminlte.svg?style=flat-square
