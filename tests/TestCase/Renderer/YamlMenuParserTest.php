@@ -32,7 +32,7 @@ class YamlMenuParserTest extends TestCase
         parent::setUp();
 
         $this->request = $this->getMockBuilder(
-            'Cake\Network\Request'
+            'Cake\Http\ServerRequest'
         )->getMock();
         $this->renderer = new AdminLTERenderer($this->request);
         $this->menu = new MenuItem('test', new MenuFactory());

@@ -1,7 +1,7 @@
 <?php
 namespace Cirici\AdminLTE\Renderer;
 
-use Cake\Network\Request;
+use Cake\Http\ServerRequest;
 use Gourmet\KnpMenu\Menu\Matcher\Matcher;
 use Gourmet\KnpMenu\Menu\Renderer\ListRenderer as GourmetListRenderer;
 use Knp\Menu\ItemInterface;
@@ -13,11 +13,11 @@ class AdminLTERenderer extends GourmetListRenderer
      *
      * Modified to add necessary classes for AdminLTE.
      *
-     * @param Cake\Network\Request $request        Cake request.
+     * @param ServerRequest        Cake request.
      * @param array                $defaultOptions Default options for the menu.
      * @param string               $charset        Charset.
      */
-    public function __construct(Request $request, array $defaultOptions = [], $charset = null)
+    public function __construct(ServerRequest $request, array $defaultOptions = [], $charset = null)
     {
         $defaultOptions += [
             'currentClass' => 'active',
