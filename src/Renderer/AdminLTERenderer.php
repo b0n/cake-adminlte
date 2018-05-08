@@ -42,7 +42,7 @@ class AdminLTERenderer extends GourmetListRenderer
      */
     public function render(ItemInterface $item, array $options = [])
     {
-        $this->addRootClass($item, $options);
+//        $this->addRootClass($item, $options);
 
         return parent::render($item, $options);
     }
