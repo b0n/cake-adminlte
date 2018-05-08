@@ -45,8 +45,7 @@ add line below:
 Plugin::load('Cirici/AdminLTE', ['bootstrap' => true]);
 ~~~
 
-After that, you can easily use the AdminLTE template making your controllers
-extend the AdminLTE `AppController`:
+After that, you need to update the app `AppController`:
 
 ~~~php
 use Cirici\AdminLTE\Controller\AppController as BaseController;
