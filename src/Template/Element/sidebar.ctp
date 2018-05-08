@@ -13,5 +13,5 @@ $this->eventManager()->dispatch(
 );
 
 echo $this->Menu->render('AdminLTE.sidebar', [
-    'renderer'  => new AdminLTERenderer($this->request)
+    'renderer' => new AdminLTERenderer($this->request)
 ]);
