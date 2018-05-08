@@ -8,6 +8,11 @@ AdminLTE theme for CakePHP 3
 [![Total downloads][downloads svg]][downloads]
 [![Code climate][climate svg]][climate]
 
+Requirements
+------------
+
+- cakephp-adminlte-theme(https://github.com/funayaki/cakephp-adminlte-theme)
+
 Installation
 ------------
 
@@ -49,6 +54,31 @@ use Cirici\AdminLTE\Controller\AppController as BaseController;
 class MyController extends BaseController
 {
 
+    /**
+     * {@inheritdoc}
+     *
+     * @var array
+     * @link http://book.cakephp.org/3.0/en/controllers.html#configuring-helpers-to-load
+     */
+    public $helpers = [
+        'Gourmet/KnpMenu.Menu',
+        'Breadcrumbs'
+    ];
+
+    public function initialize() {
+        parent::initialize();
+
+        $this->loadComponent('Gourmet/KnpMenu.Menu');
+    }
+
+    /**
+     * @param Event $event
+     * @return void
+     */
+    public function beforeRender(Event $event)
+    {
+        $this->viewBuilder()->setTheme('Cirici/AdminLTE');
+    }
 }
 ~~~
 
@@ -72,22 +102,6 @@ return [
         ]
     ]
 ];
-~~~
-
-### Login template
-
-A login template and layout are included too. To use them, simply render the
-login Template from you `login` method:
-
-~~~php
-// some kind of users Controller
-public function logic()
-{
-    // [...]
-    // Your login logic
-
-    $this->render('Cirici/AdminLTE./Admin/Users/login');
-}
 ~~~
 
 ### Menus
