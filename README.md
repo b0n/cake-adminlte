@@ -50,7 +50,7 @@ After that, you need to update the app `AppController`:
 ~~~php
 use Cirici\AdminLTE\Controller\AppController as BaseController;
 
-class MyController extends BaseController
+class AppController extends Controller
 {
 
     /**
