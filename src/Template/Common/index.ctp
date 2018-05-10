@@ -8,7 +8,7 @@
         <div class="box">
             <div class="box-body table-responsive">
                 <table class="table table-hover">
-                    <?= $this->fetch('table-heading'); ?>
+                    <?= $this->fetch('table-head'); ?>
                     <?= $this->fetch('table-body'); ?>
                 </table>
             </div>
