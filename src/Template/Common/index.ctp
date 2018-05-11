@@ -13,9 +13,7 @@
                 </table>
             </div>
             <div class="box-footer clearfix">
-                <ul class="pagination pagination-sm no-margin pull-right">
-                    <?= $this->fetch('pagination'); ?>
-                </ul>
+                <?= $this->fetch('page-numbers'); ?>
             </div>
         </div>
     </div>
