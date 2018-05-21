@@ -48,17 +48,9 @@ Plugin::load('Cirici/AdminLTE', ['bootstrap' => true]);
 After that, you need to update the app `AppController`:
 
 ~~~php
-use Cirici\AdminLTE\Controller\AppController as BaseController;
-
 class AppController extends Controller
 {
 
-    /**
-     * {@inheritdoc}
-     *
-     * @var array
-     * @link http://book.cakephp.org/3.0/en/controllers.html#configuring-helpers-to-load
-     */
     public $helpers = [
         'Gourmet/KnpMenu.Menu',
         'Breadcrumbs'
