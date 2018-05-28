@@ -78,6 +78,7 @@ $this->prepend('css', $this->Html->css([
     <!-- /.login-logo -->
     <div class="login-box-body">
 
+        <?= $this->Flash->render() ?>
         <?= $this->fetch('content'); ?>
 
     </div>
