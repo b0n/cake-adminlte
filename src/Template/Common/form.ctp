@@ -7,7 +7,7 @@
     <div class="col-xs-12">
         <div class="box box-primary">
             <?= $this->fetch('form-start'); ?>
-            <div class="box-body">
+            <div class="box-body table-responsive">
                 <?= $this->fetch('form-content'); ?>
             </div>
             <div class="box-footer">
