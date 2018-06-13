@@ -14,7 +14,6 @@
                 <?= $this->fetch('form-button'); ?>
             </div>
             <?= $this->fetch('form-end'); ?>
-            <?= $this->fetch('postLink') ?>
         </div>
     </div>
 </div>

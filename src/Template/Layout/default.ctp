@@ -202,8 +202,7 @@ $this->prepend('css', $this->Html->css([
 
         <!-- Main content -->
         <section class="content">
-            <?= $this->Flash->render(); ?>
-            <?= $this->fetch('content'); ?>
+            <?= $this->element('content') ?>
         </section>
         <!-- /.content -->
     </div>
