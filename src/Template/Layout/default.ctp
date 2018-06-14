@@ -104,13 +104,7 @@ $this->prepend('css', $this->Html->css([
                 }
                 ?>
             </h1>
-            <?php
-            $this->Breadcrumbs->prepend(
-                '<i class="fa fa-dashboard"></i> Home',
-                Configure::read('AdminLTE.links.dashboard')
-            );
-            echo $this->Breadcrumbs->render();
-            ?>
+            <?= $this->element('breadcrumb') ?>
         </section>
 
         <!-- Main content -->
