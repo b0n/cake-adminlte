@@ -4,16 +4,8 @@
  */
 ?>
 
-<?php if ($this->fetch('header-actions')) : ?>
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="box">
-                <div class="box-body">
-                    <?= $this->fetch('header-actions'); ?>
-                </div>
-            </div>
-        </div>
-    </div>
+<?php if ($this->fetch('header-content')) : ?>
+    <?= $this->fetch('header-content'); ?>
 <?php endif; ?>
 
 <div class="row">
@@ -31,3 +23,7 @@
         </div>
     </div>
 </div>
+
+<?php if ($this->fetch('footer-content')) : ?>
+    <?= $this->fetch('footer-content'); ?>
+<?php endif; ?>
