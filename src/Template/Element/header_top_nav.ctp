@@ -63,7 +63,7 @@ if ($this->exists('header')) {
                                         <div class="pull-left">
                                             <?=
                                             $this->Html->link(
-                                                __d('AdminLTE', 'Profile'),
+                                                __d('localized', 'Profile'),
                                                 $profile,
                                                 ['class' => 'btn btn-default btn-flat']
                                             ); ?>
@@ -75,7 +75,7 @@ if ($this->exists('header')) {
                                 <div class="pull-right">
                                     <?=
                                     $this->Html->link(
-                                        __d('AdminLTE', 'Sign out'),
+                                        __d('localized', 'Sign out'),
                                         Configure::read('AdminLTE.links.logout'),
                                         ['class' => 'btn btn-default btn-flat']
                                     );
