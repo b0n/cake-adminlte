@@ -71,7 +71,7 @@ $this->prepend('css', $this->Html->css([
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
     <?php endif ?>
 </head>
-<body class="hold-transition skin-<?= Configure::read('AdminLTE.skin') ?> sidebar-mini">
+<body class="hold-transition skin-<?= Configure::read('AdminLTE.skin') ?> sidebar-mini <?= Configure::read('AdminLTE.layout') ?>">
 <div class="wrapper">
 
     <?= $this->element('header') ?>

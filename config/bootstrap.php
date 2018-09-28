@@ -16,7 +16,8 @@ Configure::write('AdminLTE', [
         'logo-mini' => '<b>A</b>LT',
         'logo' => '<b>Admin</b>LTE'
     ],
-    'skin' => 'black'
+    'skin' => 'black',
+    'layout' => ''
 ]);
 
 if (file_exists(CONFIG . 'adminlte.php')) {
