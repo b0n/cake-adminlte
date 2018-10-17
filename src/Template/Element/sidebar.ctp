@@ -4,7 +4,8 @@ use Cirici\AdminLTE\Renderer\AdminLTERenderer;
 
 $menu = $this->Menu->get('AdminLTE.sidebar', [
     'attributes' => [
-        'class' => 'sidebar-menu'
+        'class' => 'sidebar-menu',
+        'data-widget' => 'tree',
     ]
 ]);
 
@@ -13,5 +14,5 @@ $this->eventManager()->dispatch(
 );
 
 echo $this->Menu->render('AdminLTE.sidebar', [
-    'renderer'  => new AdminLTERenderer($this->request)
+    'renderer' => new AdminLTERenderer($this->request)
 ]);
