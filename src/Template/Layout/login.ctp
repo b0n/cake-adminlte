@@ -40,7 +40,7 @@ $this->prepend('css', $this->Html->css([
     '/Cirici/AdminLTE/css/bootstrap.min.css',
     '/Cirici/AdminLTE/css/font-awesome.min.css',
     '/Cirici/AdminLTE/css/ionicons.css',
-    '/Cirici/AdminLTE/css/AdminLTE.css',
+    '/Cirici/AdminLTE/css/AdminLTE.min.css',
     '/Cirici/AdminLTE/plugins/iCheck/square/blue.css',
 ]));
 
